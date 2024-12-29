@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+        .bg img{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+        .con{
+            position: absolute;
+            display: flex;
+            height: 95vh;
+            width: 35vw;
+            flex-direction: column;
+            /* border: 3px solid; */
+            /* background-color: rgb(220, 195, 152); */
+            background-color:burlywood;
+            margin-left: 32%;
+            justify-content: center;
+            bottom: 0;
+            /* top: 5%; */
+        }
+        h1{
+            justify-content: center;
+            font-size: 30px;
+            /* font-weight: bold; */
+            font-family:Impact;
+            text-align: center;
+            margin-top: 5%;
+        }
+        p{
+            font-style: italic;
+            margin-top: 15px;
+            text-align: center;
+        }
+        .emoji{
+            margin-left: 45%;
+        }
+        hr{
+            width: 90%;
+            border: 2px solid maroon;
+            margin-top: 15px;
+            margin-left: 4.5%;
+            
+        }
+        h2{
+            font-family: impact;
+            font-size: 25px;
+            margin-top: 25px;
+            text-align: center;
+        }
+        section{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5%;
+            /* padding: 10px; */
+        }
+        #a{
+            margin-left: 3%;
+        }
+        #b{
+            margin-right: 3%;
+        }
+        footer li{
+            text-align: center;
+            list-style: none;
+            margin-top: 3%;
+        }
+        section li{
+            padding-bottom: 8px;
+        }
+        li{
+            font-family: sans-serif;
+        }
+        footer li a{
+            color: black;
+        }
+
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="bg"><img src="./beans.jpg"></div>
+    <div class="con">
+        <h1>CAMPER CAFE</h1>
+        <p>Est. 2020</p>
+        <hr>
+        <h2>Coffee</h2>
+        <div class="emoji"><img src="./coffee.jpg"></div>
+        <section>
+            <div id="a">
+                <li>French Vanilla</li>
+                <li>Caramel Macchiato</li>
+                <li>Pumpkin Spice</li>
+                <li>Hazelnut</li>
+                <li>Mocha</li>
+            </div>
+            <div id="b">
+                <li>3.00</li>
+                <li>3.75</li>
+                <li>3.50</li>
+                <li>4.00</li>
+                <li>4.50</li>
+            </div>
+        </section>
+        <h2>Desserts</h2>
+        <div class="emoji"><img src="./coffee.jpg"></div>
+        <section>
+            <div id="a">
+                <li>Donut</li>
+                <li>Cherry Pie</li>
+                <li>Cheesecake</li>
+                <li>Cinnamon Roll</li>
+            </div>
+            <div id="b">
+                <li>1.50</li>
+                <li>2.75</li>
+                <li>3.00</li>
+                <li>2.50</li>
+            </div>
+        </section>
+        <hr>
+        <footer>
+            <li><a href="#">Visit our website</a></li>
+            <li>123 Free Code Camp Drive</li>
+        </footer>
+    </div>
+</body>
+</html>
